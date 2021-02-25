@@ -11,66 +11,69 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     
     <!-- custom css -->
-    <link rel="stylesheet" href="css/site.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
 
 
 <body>
-    <header> 
-        <ul class="nav">
+    <header class="brown"> 
+        <ul class="nav fixed-top p-1 pl-3">
             <li class="nav-item">
-              <a class="nav-link active" href="index.html">Home</a>
+              <a class="nav-link active" href="index.html">HOME</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="facts.html">Facts</a>
+              <a class="nav-link" href="facts.html">FACTS</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="location.html">Location</a>
+              <a class="nav-link" href="location.html">LOCATION</a>
             </li>
           
         </ul>
     </header>     
         
     <main>
-        
-        <div id="demo" class="carousel slide" data-ride="carousel">
+        <div class="container-fluid">
+            <div id="demo" class="carousel slide" data-ride="carousel">
 
-            <!-- Indicators -->
-            <ul class="carousel-indicators">
-              <li data-target="#demo" data-slide-to="0" class="active"></li>
-              <li data-target="#demo" data-slide-to="1"></li>
-              <li data-target="#demo" data-slide-to="2"></li>
-            </ul>
-            
-            <!-- The slideshow -->
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                <img src="images/Component 1.png" alt="Los Angeles" width="1100" height="500">
+                <!-- Indicators -->
+                <ul class="carousel-indicators">
+                  <li data-target="#demo" data-slide-to="0" class="active"></li>
+                  <li data-target="#demo" data-slide-to="1"></li>
+                  <li data-target="#demo" data-slide-to="2"></li>
+                </ul>
+                
+                <!-- The slideshow -->
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="images/Component 1.png" alt="Los Angeles" width="1100" height="500">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="images/Component 2.png" alt="Chicago" width="1100" height="500">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="images/Component 3.png" alt="New York" width="1100" height="500">
+                  </div>
+                </div>
+                
+                <!-- Left and right controls -->
+                <a class="carousel-control-prev" href="#demo" data-slide="prev">
+                  <span class="carousel-control-prev-icon"></span>
+                </a>
+                <a class="carousel-control-next" href="#demo" data-slide="next">
+                  <span class="carousel-control-next-icon"></span>
+                </a>
               </div>
-              <div class="carousel-item">
-                <img src="chicago.jpg" alt="Chicago" width="1100" height="500">
-              </div>
-              <div class="carousel-item">
-                <img src="ny.jpg" alt="New York" width="1100" height="500">
-              </div>
-            </div>
-            
-            <!-- Left and right controls -->
-            <a class="carousel-control-prev" href="#demo" data-slide="prev">
-              <span class="carousel-control-prev-icon"></span>
-            </a>
-            <a class="carousel-control-next" href="#demo" data-slide="next">
-              <span class="carousel-control-next-icon"></span>
-            </a>
-          </div>
+
+        </div>
+        
           
 
 
     </main>
 
     <footer class="fixed-bottom">
-        <div class="container-fluid p-3">
+        <div class="container-fluid p-2">
             <p>Developed by Roselyn & Greta</p>
         </div>
     </footer>
