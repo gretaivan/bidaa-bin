@@ -1,6 +1,7 @@
 /* Make the image fully responsive */
 body{
-    font-family: 'Roboto-Slab'
+    font-family: 'Roboto-Slab';
+    background-color: #F2EDD7;
 }
 
 header.brown ul{
@@ -30,5 +31,14 @@ a.nav-link{
     color:#F2EDD7;
 
   }
+
+  h2 {
+    color: #685642;
+    }
+
+.nav {
+        background-color: #685642;
+        color: #F2EDD7;
+}
 
  
